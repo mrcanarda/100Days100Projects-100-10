@@ -1,0 +1,58 @@
+/********************
+******* CARD *******
+******************/
+
+.back__card__img {
+  position: absolute;
+  top: 120%;
+  left: 20%;
+}
+
+.left--round {
+  border-radius: 50%;
+  height: 5rem;
+  width: 5rem;
+  position: absolute;
+  border: none;
+  top: 5%;
+  left: 5%;
+}
+.right--round {
+  border-radius: 50%;
+  height: 2.4rem;
+  width: 2.4rem;
+  background-color: transparent;
+  border: solid #fff;
+  position: absolute;
+  top: 11%;
+  left: 20%;
+}
+
+.card__number {
+  color: #fff;
+  font-size: 2.8rem;
+  position: absolute;
+  letter-spacing: 4px;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+  top: 50%;
+  left: 8%;
+  background-color: transparent;
+  border: 0px solid;
+}
+
+.cvc__code {
+  position: absolute;
+  top: 1100%;
+  left: 105%;
+}
+
+/********************
+*** CARDHOLDER NAME **
+******************/
+
+.username {
+  padding: 1.4rem 12rem;
+  margin-bottom: 30rem;
+  text-align: left;
+}
