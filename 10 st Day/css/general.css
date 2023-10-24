@@ -19,6 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  margin-bottom: 100rem;
   font-family: "Space Grotesk", sans-serif;
 }
 
@@ -33,6 +34,7 @@ body {
 form {
   display: flex;
   flex-direction: column;
+  margin-left: 5rem;
 }
 
 .card-img {
@@ -41,7 +43,7 @@ form {
   flex-direction: column;
   position: absolute;
   top: 10%;
-  left: 10%;
+  left: 6%;
 }
 
 .card__mm__yy {
@@ -54,4 +56,24 @@ form {
   color: #fff;
   font-weight: 500;
   font-size: 1.4rem;
+}
+
+.exp--date {
+  display: flex;
+  gap: 1rem;
+}
+
+.m__m {
+  padding: 1.4rem;
+}
+
+.y__y {
+  padding-top: 1.4rem;
+  padding-bottom: 1.4rem;
+  padding-right: 1rem;
+}
+
+.c__vc {
+  margin-left: 1.6rem;
+  padding: 1.4rem;
 }

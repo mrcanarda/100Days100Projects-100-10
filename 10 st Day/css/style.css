@@ -5,7 +5,7 @@
 .back__card__img {
   position: absolute;
   top: 120%;
-  left: 20%;
+  left: 10%;
 }
 
 .left--round {
@@ -44,15 +44,91 @@
 .cvc__code {
   position: absolute;
   top: 1100%;
-  left: 105%;
+  left: 95%;
 }
 
 /********************
 *** CARDHOLDER NAME **
 ******************/
 
-.username {
-  padding: 1.4rem 12rem;
-  margin-bottom: 30rem;
+input {
+  padding-left: 1rem;
+  height: 40px;
+  width: 400px;
+  border-radius: 10px;
+  border: 1px solid gray;
   text-align: left;
+}
+
+.username__label {
+  font-size: 1.2rem;
+}
+
+.username {
+  margin-bottom: 45rem;
+}
+
+.cvc__fc {
+  font-size: 1.2rem;
+  position: absolute;
+  top: 53%;
+  right: 28.5%;
+  font-family: "Space Grotesk", sans-serif;
+  font-weight: 500;
+}
+
+.card__mm__yy {
+  display: flex;
+  position: absolute;
+  top: 85%;
+  left: 5%;
+  gap: 25rem;
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  font-weight: 500;
+  font-size: 1.4rem;
+}
+
+.exp--date {
+  display: flex;
+  gap: 1rem;
+}
+
+.m__m {
+  height: 40px;
+  width: 90px;
+}
+
+.y__y {
+  height: 40px;
+  width: 90px;
+}
+
+.c__vc {
+  height: 40px;
+  width: 100px;
+}
+
+.username {
+  margin-bottom: 20rem;
+}
+
+.exp {
+  margin-top: 2rem;
+}
+
+/*******************
+** BUTTON *********/
+
+.confirm {
+  height: 40px;
+  width: 400px;
+  margin-left: 5rem;
+  margin-top: 2rem;
+  background-color: hsl(278, 68%, 11%);
+  font-family: "Space Grotesk", sans-serif;
+  color: #fff;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
 }
